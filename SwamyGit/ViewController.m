@@ -40,7 +40,7 @@
 
     NSLog(@"My Button Pressed Ok");
     
-    // Hello Swamy Sam.....
+    // Hello Swamy Sam.....What Are you diong
 
 
 
