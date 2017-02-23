@@ -16,7 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UILabel *fromLabel = [[UILabel alloc]initWithFrame:CGRectMake(91, 15, 0, 0)];
+ 
+    fromLabel.numberOfLines = 1;
+    fromLabel.baselineAdjustment = YES;
+    fromLabel.adjustsFontSizeToFitWidth = YES;
+    fromLabel.adjustsLetterSpacingToFitWidth = YES;
+        fromLabel.clipsToBounds = YES;
+    fromLabel.backgroundColor = [UIColor clearColor];
+    fromLabel.textColor = [UIColor blackColor];
+    fromLabel.textAlignment = NSTextAlignmentLeft;
+    [self.view addSubview:fromLabel];
 }
 
 - (void)didReceiveMemoryWarning {
