@@ -34,4 +34,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)testButtonAction:(id)sender {
+
+
+
+    NSLog(@"My Button Pressed Ok");
+
+
+
+}
 @end
